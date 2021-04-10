@@ -1,4 +1,4 @@
-package InterFace;
+package main.oop;
 
 public class Animal {
     String name;

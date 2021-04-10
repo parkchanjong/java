@@ -1,4 +1,4 @@
-package InterFace;
+package main.oop;
 
 public class ZooKeeper {
     public void feed(Predator predator) {

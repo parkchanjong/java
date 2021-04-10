@@ -1,3 +1,5 @@
+package main;
+
 public class ThreadProgram {
 
     public static void main(int args) {

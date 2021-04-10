@@ -1,3 +1,5 @@
+package main;
+
 public class Main{
 
     public static void main(String[] args){
@@ -6,5 +8,4 @@ public class Main{
         ThreadProgram tp = new ThreadProgram();
         tp.main(50);
     }
-
 }
