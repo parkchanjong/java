@@ -5,6 +5,10 @@ public class StringCalculator {
         if (text == null || text.isEmpty()) {
             return 0;
         }
-        return 0;
+        return Integer.parseInt(text);
+    }
+    public static void main(String[] args) {
+        StringCalculator stringCalculator = new StringCalculator();
+        System.out.println(stringCalculator.add("1"));
     }
 }
