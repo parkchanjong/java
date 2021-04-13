@@ -24,4 +24,9 @@ public class StringCalculatorTest {
     public void add_숫자하나() throws Exception {
         assertEquals(1, stringCalculator.add("1"));
     }
+
+    @Test
+    public void add_쉼표구분자() throws Exception {
+        assertEquals(3, stringCalculator.add("1,2"));
+    }
 }
