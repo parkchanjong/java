@@ -1,5 +1,3 @@
-package test;
-
 import org.junit.Test;
 import org.junit.Before;
 import main.Calculator.Calculator;
