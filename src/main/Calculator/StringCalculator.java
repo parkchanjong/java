@@ -1,5 +1,7 @@
 package main.Calculator;
 
+import java.util.*;
+
 public class StringCalculator {
     public int add(String text) {
         if (isBlank(text)) {
@@ -13,12 +15,12 @@ public class StringCalculator {
     }
 
     private String[] split(String text) {
-        String[] values = text.split(",");
-        return values;
+        return text.split(",|:");
     }
 
     private int[] toInts(String[] values) {
         int[] numbers = new int[values.length];
+
         for (int i = 0; i < values.length; i++) {
             numbers[i] = Integer.parseInt(values[i]);
         }
