@@ -32,4 +32,9 @@ public class StringCalculatorTest {
     public void 쉼표_또는_콜론_구분자() throws Exception {
         assertEquals(6, cal.add("1,2:3"));
     }
+
+    @Test
+    public void add_custom_구분자() throws Exception {
+        assertEquals(6, cal.add("//;\n1;2;3"));
+    }
 }
