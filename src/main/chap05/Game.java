@@ -1,6 +1,5 @@
 package main.chap05;
 
-import java.util.Scanner;
 public class Game {
     public static void main(String[] args) {
         int numOfGuesses = 0;
