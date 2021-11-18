@@ -1,4 +1,4 @@
-package main.chap14;
+package main.chap14.serialization;
 
 import java.io.Serializable;
 
